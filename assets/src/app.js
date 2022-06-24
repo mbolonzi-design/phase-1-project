@@ -46,9 +46,32 @@ function renderCockTailOne(cockTail){
         .catch(err => console.error(err));
     return response
 }
-// DOM CONTENT LOADED EVENT LISTENER >====================
-//--------------------(FUNCTION RENDERING THE DOM)--------------------
+
+//loading the DOM
+
 document.addEventListener('DOMContentLoaded', ()=>{
-    document.querySelector('#add-element').addEventListener('submit', submitHandler)
+    document.querySelector('#add-drinks').addEventListener('submit', submitHandler)
    
 })
+  
+function submitHandler(e){
+    e.preventDefault()
+    let cocktailObj = {
+        name: e.target.nameInput.value,
+        image: e.target.imageInput.value,
+        info: e.target.infoInput.value
+    }
+    addCocktail(cocktailObj)
+}
+
+function addCocktail(e){
+    const cocktails = document.createElement('div')
+    cocktails.className = 'card'
+    cocktails.id = ''
+    cocktails.innerHTML = `
+    <h2>${e.name}</h2>
+    <img src="${e.image}"/>
+    <p>${e.info}</P>
+    `
+    document.querySelector('#more').appendChild(cocktails)
+}
