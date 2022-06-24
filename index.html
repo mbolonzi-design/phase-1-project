@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cocktail Bar</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Cocktails</li>
+            <li>Orders</li>
+        </ul>
+    </nav>
+    <div>
+        <h1 id="menu">Dry Bar Cocktails</h1>
+    </div>
+    <div id="form-container">
+        <form id="add-drinks">
+            <h2>Add Your Favorite Cocktail</h2>
+            <label class="label">Name</label>
+            <input type="text" name="name" id="drinkLabel" value="" class="input-text" placeholder="Enter drink name"><br>
+            <label class="label">Image</label>
+            <input type="text" name="image" id="drinkImage" value="" class="input-text" placeholder="Enter image url"><br>
+            <label class="label">Description</label>
+            <input type="text" name="info" id="drinkInfo" value="" class="input-text" placeholder="Enter description"><br>
+
+            <input type="submit" name="submit" class="submit">
+        </form>
+    </div>
+    <hr>
+    <div id="more"></div>
+    <script src="./assets/src/app.js"></script>
+</body>
+</html>
