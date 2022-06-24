@@ -92,7 +92,7 @@ input[type=text]{
     border-radius: 8px;
 }
 input[type=text]:focus {
-    background-color: rgb(23, 59, 71);
+    background-color: rgb(136, 213, 238);
     background-position: 10px 10px;
     
 
@@ -119,6 +119,7 @@ input[type=submit]:hover{
 .remove, .favorite{
     border: none;
     border-radius: 25px;
+    margin-top: 135px;
     color: white;
     background-color: rgba(0, 0, 0, 0.593);
     width: 70px;
