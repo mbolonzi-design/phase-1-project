@@ -55,8 +55,7 @@ To fix a bug or enhance an existing module, follow these steps:
  [Go Back to the top](#phase-1-project)
 ### Live Link
 
-- Click this link to view the live application: https://mbolonzi-design.github.io/Js-Quiz/
-
+- Click this link to view the live application:https://mbolonzi-design.github.io/phase-1-project/
 ### Technology  Used
 * HTML - which was used to develope the structure of the pages.
 
