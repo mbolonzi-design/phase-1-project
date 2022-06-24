@@ -28,3 +28,27 @@ function renderCockTailOne(cockTail){
       }
     })
   }
+  renderCockTailOne(getData)
+//fetching API
+
+  function getData() {
+    const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Host': 'the-cocktail-db.p.rapidapi.com',
+            'X-RapidAPI-Key': 'fedf1dd524msh1cf534605192167p136515jsn5200bf26f1a5'
+        }
+    };
+
+    const response= fetch('https://the-cocktail-db.p.rapidapi.com/popular.php', options)
+        .then(response => response.json())
+        .then(response => response)
+        .catch(err => console.error(err));
+    return response
+}
+// DOM CONTENT LOADED EVENT LISTENER >====================
+//--------------------(FUNCTION RENDERING THE DOM)--------------------
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.querySelector('#add-element').addEventListener('submit', submitHandler)
+   
+})
