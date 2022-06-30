@@ -20,7 +20,7 @@
  <p>Dry Bar Cocktails is an apllication that allows you to select/customize the cocktail of your choice at the joint and be served immediately The application allows you to select from a variate of cocktails that we serve.</p>
 
 
-[Go Back to the top](#JavaScript Quiz Board)
+[Go Back to the top](#phase-1-project)
 
 [Go Back to the top](#phase-1-project)
  ###  Requirements
@@ -55,7 +55,10 @@ To fix a bug or enhance an existing module, follow these steps:
  [Go Back to the top](#phase-1-project)
 ### Live Link
 
-- Click this link to view the live application:https://mbolonzi-design.github.io/phase-1-project/
+- Click this link to view the live application: https://mbolonzi-design.github.io/phase-1-project/
+
+### Blog Link
+Blog: https://dev.to/mbolonzi_/dry-bar-cocktails-1883
 ### Technology  Used
 * HTML - which was used to develope the structure of the pages.
 
